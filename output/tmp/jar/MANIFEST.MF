@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: Vividus-task
+Implementation-Version: 0.1.0-SNAPSHOT
+Automatic-Module-Name: org.vividus.Vividus_task
+

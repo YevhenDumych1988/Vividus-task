@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry output="bin/main" kind="src" path="src/main/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17/"/>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.vividus/vividus/0.6.12/137331767a365df4d4395a201ec2dfd78024fd47/vividus-0.6.12-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.vividus/vividus/0.6.12/b3459defc00d93ed7fa94d4daee0e27f9d614ebe/vividus-0.6.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.vividus/vividus-engine/0.6.12/3314a98fbc95ccd08ac8cae1e8bcc2caac955d9f/vividus-engine-0.6.12-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.vividus/vividus-engine/0.6.12/4d43a0aabb14787f82d0c56cd9c12f5809b856ec/vividus-engine-0.6.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.vividus/vividus-http-client/0.6.12/a8c66640aab3d7fbebbeedbea851e070d194120a/vividus-http-client-0.6.12-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.vividus/vividus-http-client/0.6.12/3831328b150be6834c6cd4655d1ff7e961ad52db/vividus-http-client-0.6.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.vividus/vividus-reporter/0.6.12/8834e3043cffcd93d73ce4bf19e09a8170c354bf/vividus-reporter-0.6.12-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.vividus/vividus-reporter/0.6.12/8c67e5dd8687585e12e53b4f8056e5d70ba84e15/vividus-reporter-0.6.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.vividus/vividus-test-context/0.6.12/db73562a9578cd92e3644e3447de8acc843e7bbc/vividus-test-context-0.6.12-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.vividus/vividus-test-context/0.6.12/ba6a63dec4fd3c892c289a1732beb9918c7d92f8/vividus-test-context-0.6.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.vividus/jbehave-core/6.0.0-alpha.3/7de596b02911086b3f3336b2f513d208b9c1caba/jbehave-core-6.0.0-alpha.3-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.vividus/jbehave-core/6.0.0-alpha.3/649e428eec099083e7d342bb88a7024485099e74/jbehave-core-6.0.0-alpha.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest/2.2/a0a13cfc629420efb587d954f982c4c6a100da25/hamcrest-2.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest/2.2/1820c0968dba3a11a1b30669bb1f01978a91dedc/hamcrest-2.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents.client5/httpclient5/5.2.3/bdd706e88c47379b74952c8d38dd66a78aefb653/httpclient5-5.2.3-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents.client5/httpclient5/5.2.3/5d753a99d299756998a08c488f2efdf9cf26198e/httpclient5-5.2.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter/5.10.1/4e79ee610aff59d79b5f229252ded392b7d48fd1/junit-jupiter-5.10.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter/5.10.1/6e5c7dd668d6349cb99e52ab8321e73479a309bc/junit-jupiter-5.10.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.junit.vintage/junit-vintage-engine/5.10.1/d1bbf12ee57f9bbd3054d3ae529c0f250281e05a/junit-vintage-engine-5.10.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.junit.vintage/junit-vintage-engine/5.10.1/25cf537c2c253e83ea23eb605310947661c6f763/junit-vintage-engine-5.10.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.10.1/886c197f5fcfe9eaf0d1dde20aa1bd3abd653f44/junit-platform-engine-1.10.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.10.1/f32ae4af74fde68414b8a3d2b7cf1fb43824a83a/junit-platform-engine-1.10.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.10.1/1add8e4310a408675f46eae8acafe6b2b72232e5/junit-jupiter-params-5.10.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.10.1/c8f15d4e99940c4564098af78c10809c00fdca06/junit-jupiter-params-5.10.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.10.1/b281dbb5921ce56b37b6e07a2502f663ca6c8db6/junit-jupiter-api-5.10.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.10.1/eb90c7d8bfaae8fdc97b225733fcb595ddd72843/junit-jupiter-api-5.10.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.10.1/ba681bcc1df2c719bf3b8ddb297e65eadb9d7499/junit-platform-commons-1.10.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.10.1/2bfcd4a4e38b10c671b6916d7e543c20afe25579/junit-platform-commons-1.10.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.10.1/62c17608a285a6246ed1f6c8112eddd075c0a957/junit-platform-launcher-1.10.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.10.1/ce85bf5e38bee0989ded9bd468dd4ff78dc0cfa8/junit-platform-launcher-1.10.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/4.0.0/9f174526169062e70ccaf5487298acb493968554/plexus-utils-4.0.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/4.0.0/ff00a04ba971655ed10e9fb93bce0ed3014e9477/plexus-utils-4.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.10.1/982a90132e942f302e6fe79d6e78c4bc2e998569/gson-2.10.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.10.1/b3add478d4382b78ea20b1671390a858002feb6c/gson-2.10.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.thoughtworks.paranamer/paranamer/2.8/8f3421a8203053a6ab4b74f76a0550d21eee8cfe/paranamer-2.8-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.thoughtworks.paranamer/paranamer/2.8/619eba74c19ccf1da8ebec97a2d7f8ba05773dd6/paranamer-2.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents.core5/httpcore5-h2/5.2.4/19d448699f629b6a3298ab661dc2caf12ac6abce/httpcore5-h2-5.2.4-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents.core5/httpcore5-h2/5.2.4/2872764df7b4857549e2880dd32a6f9009166289/httpcore5-h2-5.2.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents.core5/httpcore5/5.2.4/1bcb2ce8d159b306c438932ec0a14c32ea3480c0/httpcore5-5.2.4-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents.core5/httpcore5/5.2.4/34d8332b975f9e9a8298efe4c883ec43d45b7059/httpcore5-5.2.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/33987872a811fe4d4001ed494b07854822257f42/junit-4.13.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.3.0/afb8ff23cffb021c56f333953aebfe6e8818568e/opentest4j-1.3.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.3.0/152ea56b3a72f655d4fd677fc0ef2596c3dd5e6e/opentest4j-1.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.vividus/vividus-allure-adaptor/0.6.12/a1a990dedce1c6947d9da711c945345c8d9e8f1d/vividus-allure-adaptor-0.6.12-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.vividus/vividus-allure-adaptor/0.6.12/5d639dc90e087422fc6895e6cc92a117cb91dcf1/vividus-allure-adaptor-0.6.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.vividus/vividus-analytics/0.6.12/f04d6069aed8266fff29d6c2fcd3fb44e408faa/vividus-analytics-0.6.12-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.vividus/vividus-analytics/0.6.12/f8f4e4e798a39c055cdd7abf51df155f0658606d/vividus-analytics-0.6.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.vividus/vividus-soft-assert/0.6.12/41a2ef9e49d55da480cdb738d7334cf4d2508bff/vividus-soft-assert-0.6.12-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.vividus/vividus-soft-assert/0.6.12/901088667d1648f14c9f17b562e614b6e3bf6088/vividus-soft-assert-0.6.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.vividus/vividus-util/0.6.12/365d77d036a497c897a88f810e14a562bba2c4c/vividus-util-0.6.12-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.vividus/vividus-util/0.6.12/c711f91a23198b6bac675b5c33de8023bef94d66/vividus-util-0.6.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.github.valfirst/allure-notifications/e91fdab70b/5ebd768f7e6514ec28d0fef283d5d8ae7687fbb4/allure-notifications-e91fdab70b-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.github.valfirst/allure-notifications/e91fdab70b/d4944495083345735953a40a9bfbf943675bd8aa/allure-notifications-e91fdab70b.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/2.0.13/247a72428efb9df1581a149ff9b4cd622f73d25d/jcl-over-slf4j-2.0.13-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/2.0.13/d062d6e35605aabee0c727a950e29d39ac0a262e/jcl-over-slf4j-2.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/2.0.13/7bf7b08626c3ef6b7b89d084abb2b51c4b83f94a/log4j-over-slf4j-2.0.13-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/2.0.13/3c3a3e4ccd5ed944cd766af124fa841b6372b7da/log4j-over-slf4j-2.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/2.0.13/91b642c6dead52faad3a6b762607d896e143a6e3/jul-to-slf4j-2.0.13-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/2.0.13/a3bcd9d9dd50c71ce69f06b1fd05e40fdeff6ba5/jul-to-slf4j-2.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j2-impl/2.23.1/919f9dfff8128779a4c50ca275738f1cd9859ae1/log4j-slf4j2-impl-2.23.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j2-impl/2.23.1/c3ffee33404c3a178f026fd8c7ef0e058b01b01c/log4j-slf4j2-impl-2.23.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/io.qameta.allure/allure-generator/2.29.0/1f6ba8a80a1d2135f3a375c14842e549833056c3/allure-generator-2.29.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/io.qameta.allure/allure-generator/2.29.0/9801b4063d8baf937c1ce69a2ba63d2a84933e9a/allure-generator-2.29.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/io.qameta.allure/allure-plugin-api/2.29.0/99819bf7938703547c76372c8ca01bc2b60a280/allure-plugin-api-2.29.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/io.qameta.allure/allure-plugin-api/2.29.0/79bc2b182ba657c1c4e32c8dbde85ec222da6e9b/allure-plugin-api-2.29.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.github.vividus-framework.JsonPath/json-path/52ebb195bd/5e34e68aee21a9bcae370579a7266ff96285b643/json-path-52ebb195bd-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.github.vividus-framework.JsonPath/json-path/52ebb195bd/7415add314d0f899276ff1ca1c135df68b7ebd5c/json-path-52ebb195bd.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents.client5/httpclient5-win/5.2.3/90aa79e2e386854a9a58397b1c106e73ba4e3492/httpclient5-win-5.2.3-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents.client5/httpclient5-win/5.2.3/1dbd48e4af78dbd78a75545c950c1d5ae95ea935/httpclient5-win-5.2.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/de.vandermeer/asciitable/0.3.2/e77c09953612e6cbc7e93a6ee3935c5e35edc6d6/asciitable-0.3.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/de.vandermeer/asciitable/0.3.2/96ee630413aa5a03ac5cbb34c79c95f91f417caa/asciitable-0.3.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/de.vandermeer/ascii-utf-themes/0.0.1/90e0c7830dd86962ce308d6154806fc875bbe714/ascii-utf-themes-0.0.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/de.vandermeer/ascii-utf-themes/0.0.1/4e6354685bb4bf62742dd8f0bc2de338e048e978/ascii-utf-themes-0.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/de.vandermeer/char-translation/0.0.2/359ee3e51233505715bb7c350f13eaedeb527dc3/char-translation-0.0.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/de.vandermeer/char-translation/0.0.2/1f8a810c0b9a5b8269288b22f842b88b1262f238/char-translation-0.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/de.vandermeer/skb-interfaces/0.0.1/df9fdb3bcc0927abed1dfed0e3a443149b745228/skb-interfaces-0.0.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/de.vandermeer/skb-interfaces/0.0.1/78940adb54f8dbcebb9b6166ebd0ff52ca124b32/skb-interfaces-0.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/io.qameta.allure/allure-java-commons/2.27.0/5cd05199b6e80284b6332d0c6ebdf19449841c74/allure-java-commons-2.27.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/io.qameta.allure/allure-java-commons/2.27.0/d39d1dc473bfd2a2e9ddb8685672297f6553cb69/allure-java-commons-2.27.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.allurefw/allure1-model/1.0/9427a7625b28ae92108752ec2845559904d480c3/allure1-model-1.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.allurefw/allure1-model/1.0/cfd4d328364a7736448e42f088b53b5b8fb1c09d/allure1-model-1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.tika/tika-core/2.9.2/a739e43760258ceaedc14829f11ec9cef227ea85/tika-core-2.9.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.tika/tika-core/2.9.2/796a21391780339e3d4862626339b49df170024e/tika-core-2.9.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.8.0/4cef8f7eaa1e056e5eae9bd000e43b342fdffda8/json-path-2.8.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.8.0/b4ab3b7a9e425655a0ca65487bbbd6d7ddb75160/json-path-2.8.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.13/e7a3edf3c9b41ce9d4daeee609fc59cb2730f67f/slf4j-api-2.0.13-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.13/80229737f704b121a318bba5d5deacbcf395bc77/slf4j-api-2.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.23.1/cd9f7e391254473ea47e0cce180f56c59dff5cce/log4j-core-2.23.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.23.1/905802940e2c78042d75b837c136ac477d2b4e4d/log4j-core-2.23.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.23.1/b504efc545603fa3364ae397fe733cb9f527e67e/log4j-api-2.23.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.23.1/9c15c29c526d9c6783049c0a77722693c66706e1/log4j-api-2.23.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.groovy/groovy/4.0.22/221051b27d1747635652fcd2b772b81f5b19a6a9/groovy-4.0.22-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.groovy/groovy/4.0.22/a04df669ad2778678072315bc92f10f03362e7d7/groovy-4.0.22.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.springframework.vault/spring-vault-core/3.1.1/b888366719419ef3988db41ee87138151ceaa44e/spring-vault-core-3.1.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.springframework.vault/spring-vault-core/3.1.1/242e31d8b38595de0ba3c9ee38f8280913a8d110/spring-vault-core-3.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.vividus/jbehave-spring/6.0.0-alpha.3/b8d8ce60b97567b530d14418c567eea2eeff4f97/jbehave-spring-6.0.0-alpha.3-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.vividus/jbehave-spring/6.0.0-alpha.3/12d9d9b74669cb0166cd2609c547b71d3488502f/jbehave-spring-6.0.0-alpha.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/6.1.10/1a36bd562bbb7fba18a80fa5ead344af934d6830/spring-context-6.1.10-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/6.1.10/6f869ea35a26028f3bfbfb52c72ef2b077fbb6e5/spring-context-6.1.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/jakarta.inject/jakarta.inject-api/2.0.1/569d6c5f18d6ff83c82152d1870cf0faf830c594/jakarta.inject-api-2.0.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/jakarta.inject/jakarta.inject-api/2.0.1/4c28afe1991a941d7702fe1362c365f0a8641d1e/jakarta.inject-api-2.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.8.0/21a1529d34e77f8cbbfdfea70062fd27c8bb183d/commons-cli-1.8.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.8.0/41a4bff12057eecb6daaf9c7f36c237815be3da1/commons-cli-1.8.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.jasypt/jasypt-spring4/1.9.3/46aa59feddd06cd93cdda9664823ee2d7842e2b2/jasypt-spring4-1.9.3-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.jasypt/jasypt-spring4/1.9.3/1759d8d81852c7c05451c9d1126f394122ed22ef/jasypt-spring4-1.9.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.opencsv/opencsv/4.6/cbb2525ca01a104dbca6f012bded1a829abd875/opencsv-4.6-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.opencsv/opencsv/4.6/b7ce164e9e75be4b5eb42fd89c9c53ebecea6729/opencsv-4.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-text/1.12.0/9ff4f979b84635ca1b57a3298dd905b61e7fd0ca/commons-text-1.12.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-text/1.12.0/66aa90dc099701c4d3b14bd256c328f592ccf0d6/commons-text-1.12.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.14.0/9ef3e18356f4ac30b15bfa48c02a7f54b51af382/commons-lang3-3.14.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.14.0/1ed471194b02f2c6cb734a0cd6f6f107c673afae/commons-lang3-3.14.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.4/6260e416ff273ee938b31b0a8e512a367b1ee500/commons-collections4-4.4-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.4/62ebe7544cb7164d87e0637a2a6a2bdc981395e8/commons-collections4-4.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.konghq/unirest-java/3.14.5/7fa6786fd448a67742ae145d282a3456a132e42c/unirest-java-3.14.5-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.konghq/unirest-java/3.14.5/bb43cef05994d07795e99e0a548f9226dbb76fca/unirest-java-3.14.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.5.13/f4f989a08a1ec3c84ad0aa110cb55590ccf2525/httpmime-4.5.13-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.5.13/efc110bad4a0d45cda7858e6beee1d8a8313da5a/httpmime-4.5.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.14/14321a360aa0e037c56d4c820747a84954d9196e/httpclient-4.5.14-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.14/1194890e6f56ec29177673f2f12d0b8e627dec98/httpclient-4.5.14.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.17.0/63cf61522da956c3db58ffdbcde99a603bf6f6d/commons-codec-1.17.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.17.0/dbe8eef6e14460e73da07f7b11bf994d6626355/commons-codec-1.17.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/33.2.1-jre/b49b0b2d97a0eae57d70d6871d150f2940b933c8/guava-33.2.1-jre-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/33.2.1-jre/818e780da2c66c63bbb6480fef1f3855eeafa3e4/guava-33.2.1-jre.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/io.github.classgraph/classgraph/4.8.173/9d0062a91dc8424c2495b84f871dd4b031071ce9/classgraph-4.8.173-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/io.github.classgraph/classgraph/4.8.173/236e1b4360bf078142902c6c3ca80a03bfa95d5d/classgraph-4.8.173.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/io.github.java-diff-utils/java-diff-utils/4.12/175dac5f6daecef7444f24e581a42c48707baa1d/java-diff-utils-4.12-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/io.github.java-diff-utils/java-diff-utils/4.12/1a712a91324d566eef39817fc5c9980eb10c21db/java-diff-utils-4.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-jexl3/3.4.0/f1817164f17deedc780df4ce0bedd1d7f267d40a/commons-jexl3-3.4.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-jexl3/3.4.0/9a9aaf192af8222850fa5afa8a2df6e30f6469a/commons-jexl3-3.4.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/net.datafaker/datafaker/2.3.0/caea4acc4dd65becc41bed8abb99fa84e95c85bb/datafaker-2.3.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/net.datafaker/datafaker/2.3.0/1108a3cf8fee7c33458c136c99c10ceac27c85bf/datafaker-2.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/6.1.10/716a07ddca65989bf9db3a3fb745c601d63f2be7/spring-aop-6.1.10-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/6.1.10/aa6a147eb08820fb503a992a8fe2c9fee3439129/spring-aop-6.1.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/6.1.10/a3f2792a16548caaa0d1fd2cdab7034226a2cd51/spring-web-6.1.10-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/6.1.10/876a856af61ef5712fb9a3013b798aa2b4a9475e/spring-web-6.1.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/6.1.10/b4df3b60e38affdf3b32dca47a47151493e14df/spring-beans-6.1.10-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/6.1.10/a49252929fb2918f73eb7659ef98dff7306a7c2c/spring-beans-6.1.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/6.1.10/9855a78563a4cfa54b51067e885bcc6fc0c948b3/spring-expression-6.1.10-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/6.1.10/a17d61f1388d0e13d6e7a740304e9d648fffc7c/spring-expression-6.1.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/6.1.10/a04ec7c250dfc01d2018ac9599a55f0045df5b81/spring-core-6.1.10-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/6.1.10/eaf5b1f3e3bb5aa8b45ab255cf3270c1c4578f1d/spring-core-6.1.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/6.1.10/664e37aa853f003c616b9275675df7adc9577a29/spring-jcl-6.1.10-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/6.1.10/c22c18cf6ed7d768676816347f020a6868663224/spring-jcl-6.1.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-properties/2.17.1/bf210370aa75cb9f5481e234f39706263b423bc3/jackson-dataformat-properties-2.17.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-properties/2.17.1/fc8e4ebf448c412468b06874e76c8626bc93f8d7/jackson-dataformat-properties-2.17.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.17.1/6aec6c06d7b1c84041e76a5bb326bf3370b48756/jackson-dataformat-xml-2.17.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.17.1/e6a168dba62aa63743b9e2b83f4e0f0dfdc143d3/jackson-dataformat-xml-2.17.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.17.1/bc2392e3887d31c7d81086ff87348d628702efc/jackson-dataformat-yaml-2.17.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.17.1/b4c7b8a9ea3f398116a75c146b982b22afebc4ee/jackson-dataformat-yaml-2.17.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.17.1/27c21be7d00465170851a724fffaa49fe865c10f/jackson-datatype-jdk8-2.17.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.17.1/76b495194c36058904c82e288d285a1bd13f0ffa/jackson-datatype-jdk8-2.17.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.17.1/7c87cd905ea9808786b58af75955614b0be59212/jackson-datatype-jsr310-2.17.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.17.1/969b0c3cb8c75d759e9a6c585c44c9b9f3a4f75/jackson-datatype-jsr310-2.17.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.17.1/b645e3e8c542448adf7fa7d81d3a6b4a8198c970/jackson-module-jaxb-annotations-2.17.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.17.1/f77e7bf0e64dfcf53bfdcf2764ad7ab92b78a4da/jackson-module-jaxb-annotations-2.17.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.17.1/11be4ea2b39d9b8e844e05fecdc621552aeeb136/jackson-core-2.17.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.17.1/5e52a11644cd59a28ef79f02bddc2cc3bab45edb/jackson-core-2.17.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.17.1/45aa112e8b36bb3649a5be4179cb2ba9eea98bee/jackson-annotations-2.17.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.17.1/fca7ef6192c9ad05d07bc50da991bf937a84af3a/jackson-annotations-2.17.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.17.1/c156623726186b3bbc956d84c3d5f07198cd32f5/jackson-databind-2.17.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.17.1/524dcbcccdde7d45a679dfc333e4763feb09079/jackson-databind-2.17.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.jasypt/jasypt/1.9.3/9fe5c909addd00e1f3c27af8b64e22ee98922dcc/jasypt-1.9.3-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.jasypt/jasypt/1.9.3/d99ef9540f51c617f2a293b460f025d2ee563dd/jasypt-1.9.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.2/6acdafcf2dfc3b548e59dd3a4b454552aeb6ff65/failureaccess-1.0.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.2/c4a06a64e650562f30b7bf9aaec1bfed43aca12b/failureaccess-1.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/b19b5927c2c25b6c70f093767041e641ae0b1b35/jsr305-3.0.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.42.0/49cc9a760cebbbcd13be06679a224a1ecc85f884/checker-qual-3.42.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.42.0/638ec33f363a94d41a4f03c3e7d3dcfba64e402d/checker-qual-3.42.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.26.1/b6d2491085a2ca4d152f3937f45009c23d928ef9/error_prone_annotations-2.26.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.26.1/c1fde57694bdc14e8618899aaa6e857d9465d7de/error_prone_annotations-2.26.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.9.3/9d70af7c5982bd09c33efa97ac98cee6363ba0f0/commons-beanutils-1.9.3-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.9.3/c845703de334ddc6b4b3cd26835458cb1cba1f3d/commons-beanutils-1.9.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpasyncclient/4.1.5/1c49db8243e070aa56312f80efb71e5805bab17b/httpasyncclient-4.1.5-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpasyncclient/4.1.5/cd18227f1eb8e9a263286c1d7362ceb24f6f9b32/httpasyncclient-4.1.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.knowm.xchart/xchart/3.8.5/5441e8727ad129bfb469cef693a4cb15361f300e/xchart-3.8.5-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.knowm.xchart/xchart/3.8.5/82d024525d0e5a1277d601a15e70e29acb1f84f/xchart-3.8.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/de.rototor.pdfbox/graphics2d/0.43/991beab7b520ce115f0ee40ddeb0fcc20a464f95/graphics2d-0.43-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/de.rototor.pdfbox/graphics2d/0.43/4593312943493cc04bd14ca4127e8430fafdcd68/graphics2d-0.43.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/2.0.28/4a031b07fd5de3efd63c060c83c34005ffb7140/pdfbox-2.0.28-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/2.0.28/82a36bf73db57414b3fb2fc2962859ed453b51bc/pdfbox-2.0.28.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/fontbox/2.0.28/db80818ecf90553d45b5e6731e362a4b6f390dd1/fontbox-2.0.28-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/fontbox/2.0.28/cae8486c676f4119140a06dbec5f97bbae68c34b/fontbox-2.0.28.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.3.2/3bf2b5ce48a273d1d37bac9df0ab9f73b4ef92cb/commons-logging-1.3.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.3.2/3dc966156ef19d23c839715165435e582fafa753/commons-logging-1.3.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/2.2/575a7915b847393207642575c139177ac2b2ac23/snakeyaml-2.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/2.2/3af797a25458550a16bf89acc8e4ab2b7f2bfce0/snakeyaml-2.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.github.curious-odd-man/rgxgen/2.0/a1acbbb18ad091361a835ecbc0b260a6369edd5f/rgxgen-2.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.github.curious-odd-man/rgxgen/2.0/43d0a91c7c90a3427dc88c42853649b3eb1207e2/rgxgen-2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.googlecode.libphonenumber/libphonenumber/8.13.40/71118b7401b988497a2beb07e4ebfb85e39c139b/libphonenumber-8.13.40-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.googlecode.libphonenumber/libphonenumber/8.13.40/501d3bbd299d03b3abafb573890d0874b41c48bd/libphonenumber-8.13.40.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/io.qameta.allure.plugins/behaviors-plugin/2.29.0/11c6b551f4cd7c486d5d3deb13e9d3123e555adb/behaviors-plugin-2.29.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/io.qameta.allure.plugins/behaviors-plugin/2.29.0/f7d5752ea9e0289232d4d1d26ccaf6950f3b4b94/behaviors-plugin-2.29.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.3.1/e47264d065cecbc572ba99856fcc7da19a470ae3/jaxb-api-2.3.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.3.1/8531ad5ac454cc2deb9d4d32c40c4d7451939b5d/jaxb-api-2.3.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.16.1/e0dbaef3c79b647e9c510b40a8366b6765cff249/commons-io-2.16.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.16.1/377d592e740dc77124e0901291dbfaa6810a200e/commons-io-2.16.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-pool2/2.12.0/f74769762ca5e6f44043ae43c8c3c70da4ee665/commons-pool2-2.12.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-pool2/2.12.0/458563f69fbdaebf7daadfe10dc3a22e42a7de50/commons-pool2-2.12.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.33/4fbb000c2ed4794bc4799735ce0dc9e920396c28/freemarker-2.3.33-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.33/fecaeb606993fc9fd0f95fe5a644048a69c39474/freemarker-2.3.33.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-observation/1.12.7/448d6426aba895dd2302b986509b54c5b6b802d1/micrometer-observation-1.12.7-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-observation/1.12.7/41cf5c9848d65c1559b9e78809fb22b7d85ba337/micrometer-observation-1.12.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/io.qameta.allure/allure-model/2.27.0/f968b6bfb3fa44c407a22f22bb5af5a94575f9e0/allure-model-2.27.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/io.qameta.allure/allure-model/2.27.0/f790edd579a00469065b1bf00a5184a736eef1d7/allure-model-2.27.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-tables/0.62.2/d25be2a2839235e9ab7ea1346bf9068905f45120/flexmark-ext-tables-0.62.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-tables/0.62.2/c95068a1450835c2695750ece82c996a7b57bbd3/flexmark-ext-tables-0.62.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark/0.62.2/9fd79d98221869b5213ae0a83cd158b535afb8ca/flexmark-0.62.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark/0.62.2/606a88e1d15aa8debd97cb5dfdf788ddc6fb5b5e/flexmark-0.62.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/javax.activation/javax.activation-api/1.2.0/1b4c6e77d35adab19794746d8ea753df30d77dca/javax.activation-api-1.2.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/javax.activation/javax.activation-api/1.2.0/85262acf3ca9816f9537ca47d5adeabaead7cb16/javax.activation-api-1.2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.sun.mail/jakarta.mail/2.0.1/1cbab8f9fe68102f3ae5c94560ecff2f77eb9e1e/jakarta.mail-2.0.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.sun.mail/jakarta.mail/2.0.1/96d3645f02a92bcc5e7ae1ff037151e44179f230/jakarta.mail-2.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.5.0/7f51740e5d2aa84831af62084d5ae98a51fcb61d/json-smart-2.5.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.5.0/57a64f421b472849c40e77d2e7cce3a141b41e99/json-smart-2.5.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.10.1/624f71a8d76185f2ac8d234c686bbdab0bd28ae0/junit-jupiter-engine-5.10.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.10.1/6c9ff773f9aa842b91d1f2fe4658973252ce2428/junit-jupiter-engine-5.10.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/5.13.0/e5e195977f4aad007d418a33401c43d1ae929134/jna-platform-5.13.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/5.13.0/88e9a306715e9379f3122415ef4ae759a352640d/jna-platform-5.13.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.13.0/e55ddc56d092866b6d59822f825c253960a6e504/jna-5.13.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.13.0/1200e7ebeedbe0d10062093f32925a912020e747/jna-5.13.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-commons/1.12.7/1ca0f8170bedd010a32d32d403138e183c9a88c6/micrometer-commons-1.12.7-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-commons/1.12.7/c35759a840f3e5a0ceda8fbf42874a0e6c730c45/micrometer-commons-1.12.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.antlr/ST4/4.0.8/6f23134f1c98dfce77f85defda31bfbce3e2a4ac/ST4-4.0.8-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.antlr/ST4/4.0.8/a1c55e974f8a94d78e2348fa6ff63f4fa1fae64/ST4-4.0.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.5.1/a5738a01ca8db69d41cb0347f2cfb71f756a1d88/antlr4-4.5.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.5.1/19a08f261dc2b7e1bc58c8f1038f766dccade74c/antlr4-4.5.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/ru.qatools.commons/properties/2.0.RC5/aed833bdb24c263fdacdda5e9b51163507fb4f63/properties-2.0.RC5-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/ru.qatools.commons/properties/2.0.RC5/9c90f0e4211aedcc39c18cd77b2268ddb6563bad/properties-2.0.RC5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.github.baev/jaxb-utils/1.0/f32ccd8b4d6632b712b8038e6b036f4c43a46889/jaxb-utils-1.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.github.baev/jaxb-utils/1.0/7463f66662f5bc4ea6e61de04bfccfafe6125d67/jaxb-utils-1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore-nio/4.4.13/449ca4fabab2bd78e230f89adb790946e999125/httpcore-nio-4.4.13-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore-nio/4.4.13/3f897ace4d7f10f0ea6a58f524a3b105dd483653/httpcore-nio-4.4.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.16/229e4c0eae80465381ae02adf61bca5558360777/httpcore-4.4.16-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.16/51cf043c87253c9f58b539c9f7e44c8894223850/httpcore-4.4.16.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util/0.62.2/6e38dcd6bb4ccfc13d513aaba350404977fa85bd/flexmark-util-0.62.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-format/0.62.2/aded6673926aa21e792e083374d1b16bc3f2759f/flexmark-util-format-0.62.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-format/0.62.2/58548be1fc0682698721c0c278451a41f361d3a/flexmark-util-format-0.62.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-ast/0.62.2/efe4c65eb9953ec1ed53d3217331d5514e2b0abb/flexmark-util-ast-0.62.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-ast/0.62.2/c0b998d5570295f104a4ffee4f8eec305d7db327/flexmark-util-ast-0.62.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-builder/0.62.2/7d1a26aad0a2367a5aafa81d770118c9dc5065b9/flexmark-util-builder-0.62.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-builder/0.62.2/22c85efb51d4aa25540b8b0d880be7ad4a8baec1/flexmark-util-builder-0.62.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-dependency/0.62.2/d277ce77dfcb7754221cb02c6f8ea3fc0a46483e/flexmark-util-dependency-0.62.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-dependency/0.62.2/ae5afa76a669e06b3a65255c2ed775ede5cd3eb1/flexmark-util-dependency-0.62.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-html/0.62.2/ce2a4ebac7e5fc1b2278b1a31674766024b0ae08/flexmark-util-html-0.62.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-html/0.62.2/6d830cb37e48fd9dca44bf15fbc3a86aa7d82c5a/flexmark-util-html-0.62.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-options/0.62.2/db6a82151c00c30eefff95fdcefa5d0c5c02d39a/flexmark-util-options-0.62.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-options/0.62.2/d871763fff2226c271cc3333e98729ce6211065c/flexmark-util-options-0.62.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-sequence/0.62.2/57e3b6fab73a73e1a1848064c9ebbfe790da1967/flexmark-util-sequence-0.62.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-sequence/0.62.2/87af2803a63b5b07cc42d9c1d98f8ecd4f83fbcc/flexmark-util-sequence-0.62.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-collection/0.62.2/19a0505fa542b71940563f486ff977a145804891/flexmark-util-collection-0.62.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-collection/0.62.2/85253a62761533ce7709f81b0c581c8473f825ec/flexmark-util-collection-0.62.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-data/0.62.2/a259e94866b72eb68e230d21ab7edb37514f6a9/flexmark-util-data-0.62.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-data/0.62.2/2df8ce1abab2e40edc7d340962025ee1dd09fe02/flexmark-util-data-0.62.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-misc/0.62.2/d58ee9cde3eacde3922e4beeef4d687ac7930423/flexmark-util-misc-0.62.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-misc/0.62.2/18133dd81887c512e2f56feb3c14a8a1210f30ea/flexmark-util-misc-0.62.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-visitor/0.62.2/e0e51d876386588e52d87468aa4904481d7e0578/flexmark-util-visitor-0.62.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util-visitor/0.62.2/ca49bd94860a5ccedd82bde96ece831f16c66ff1/flexmark-util-visitor-0.62.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.sun.activation/jakarta.activation/2.0.1/5204fb651a74c03463d3e587f37c92c3506272e7/jakarta.activation-2.0.1-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.sun.activation/jakarta.activation/2.0.1/828b80e886a52bb09fe41ff410b10b342f533ce1/jakarta.activation-2.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/de.erichseifert.vectorgraphics2d/VectorGraphics2D/0.13/ee04cd6e365a732bb8c884c36fd9782f96e01770/VectorGraphics2D-0.13-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/de.erichseifert.vectorgraphics2d/VectorGraphics2D/0.13/f1ad944da4c6b6a27d244d3a04ce1c67b8b026b6/VectorGraphics2D-0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.madgag/animated-gif-lib/1.4/2072f2bd4f5e85679196895c5d46ce220892db19/animated-gif-lib-1.4-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.madgag/animated-gif-lib/1.4/b6ab3aa0a27499b6677153ebd59bbecb7ae8af41/animated-gif-lib-1.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.fasterxml.woodstox/woodstox-core/6.6.2/ff37526cf68de3eed6d62a04e4f89c8f0909f67e/woodstox-core-6.6.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/com.fasterxml.woodstox/woodstox-core/6.6.2/bfe905f19ce0e60bff5b7adcbded2681a092ac3/woodstox-core-6.6.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/stax2-api/4.2.2/89bd0d99524eebd106cd1941bfb7469af95511f0/stax2-api-4.2.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/stax2-api/4.2.2/b0d746cadea928e5264f2ea294ea9a1bf815bbde/stax2-api-4.2.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/2.3.3/d83744bae211a4072c39f007000a13f501a88395/jakarta.xml.bind-api-2.3.3-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/2.3.3/48e3b9cfc10752fba3521d6511f4165bea951801/jakarta.xml.bind-api-2.3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/1.2.2/c45b5962230be8a5f93759203870c98917bb8b31/jakarta.activation-api-1.2.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/1.2.2/99f53adba383cb1bf7c3862844488574b559621f/jakarta.activation-api-1.2.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/2.5.0/596cf1b2ac57a905102db8fb648c4080529f347f/accessors-smart-2.5.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/2.5.0/aca011492dfe9c26f4e0659028a4fe0970829dd8/accessors-smart-2.5.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.antlr/antlr-runtime/3.5.2/5214ea45dd20d3a2e4caa6f1ad2248ad107e0daf/antlr-runtime-3.5.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.antlr/antlr-runtime/3.5.2/cd9cd41361c155f3af0f653009dcecb08d8b4afd/antlr-runtime-3.5.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/78c50ebda5784937ca1615fc0e1d0cb35857d572/commons-collections-3.2.2-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5/commons-collections-3.2.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/15.0/e46282033fcc73c8b9eb55f297b264cee3680f29/annotations-15.0-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/15.0/d40ab99147584cf6cfb5245be67b3fee2c7220f9/annotations-15.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.3/ce26e415ccafa10c6624a07bdb38d969110f568f/asm-9.3-sources.jar" kind="lib" path="C:/Users/Yevhen_Dumych/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.3/8e6300ef51c1d801a7ed62d07cd221aca3a90640/asm-9.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+</classpath>

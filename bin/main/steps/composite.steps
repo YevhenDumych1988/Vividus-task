@@ -1,0 +1,123 @@
+Composite: When I change language to UA
+
+Then number of VISIBLE elements found by `xpath(//*[@id="wrapper"]/div[2]/div[1]/header/div/div/ul/li[2]/div/nav)` is = `1`
+When I click on element located by `xpath((//*[@id="wrapper"]/div[2]/div[1]/header/div/div/ul/li[2]/div/nav/ul/li[6]))`
+Then the page with the URL containing 'ua' is loaded
+
+Composite: Then I verify mandatory fields on Ask Us Anything page
+
+When I change context to element located by `xpath(//label[contains(text(),'First Name*')])`
+Then context element has CSS property `color` with value that is equal to `rgba(255, 77, 64, 1)`
+When I change context to element located by `xpath(//label[contains(text(),'Last Name*')])`
+Then context element has CSS property `color` with value that is equal to `rgba(255, 77, 64, 1)`
+When I change context to element located by `xpath(//label[contains(text(),'Email*')])`
+Then context element has CSS property `color` with value that is equal to `rgba(255, 77, 64, 1)`
+When I change context to element located by `xpath(//label[contains(text(),'Phone*')])`
+Then context element has CSS property `color` with value that is equal to `rgba(255, 77, 64, 1)`
+When I change context to element located by `xpath(//div[2]//div/div/div[8][contains(., 'How did you hear about EPAM?*')])`
+Then context element has CSS property `color` with value that is equal to `rgba(255, 255, 255, 1)`
+
+Composite: When I initialise test user
+
+Given I initialize story variable `username` with value `ttsson`
+Given I initialize story variable `user1` with value `{
+  "id": 0,
+  "username": "${username}",
+  "firstName": "Test",
+  "lastName": "Testsson",
+  "email": "ttsson@yopmail.com",
+  "password": "test",
+  "phone": "0563261212",
+  "userStatus": 0
+
+}`
+
+Composite: When I initialise test users
+
+Given I initialize story variable `username` with value `ttsson2`
+Given request body:
+[
+{
+  "id": 1,
+  "username": "ttsson1",
+  "firstName": "Test1",
+  "lastName": "Testsson1",
+  "email": "ttsson1@yopmail.com",
+  "password": "test1",
+  "phone": "0563261212",
+  "userStatus": 0
+},
+{
+  "id": 2,
+  "username": "${username}",
+  "firstName": "Test2",
+  "lastName": "Testsson2",
+  "email": "ttsson2@yopmail.com",
+  "password": "test2",
+  "phone": "0563261212",
+  "userStatus": 0
+}
+]
+
+Composite: When I initialise test pet
+
+Given I initialize story variable `petName` with value `Barsik`
+Given I initialize story variable `petId` with value `12`
+Given I initialize story variable `pet` with value `{
+  "id": ${petId},
+  "category": {
+    "id": 1,
+    "name": "${petName}"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "https://www.shutterstock.com/image-photo/cute-puppy-dog-border-collie-holding-2146851493"
+  ],
+  "tags": [
+    {
+      "id": ${petId},
+      "name": "${petName}"
+    }
+  ],
+  "status": "available"
+}`
+
+Composite: When I update petsImage
+
+Given I initialize scenario variable `petName` with value `Barsik`
+Given I initialize story variable `petId` with value `12`
+Given I initialize scenario variable `pet` with value `{
+  "id": ${petId},
+  "category": {
+    "id": 1,
+    "name": "${petName}"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "https://www.shutterstock.com/image-photo/cool-rich-successful-hipster-cat-sunglasses-2275950521"
+  ],
+  "tags": [
+    {
+      "id": ${petId},
+      "name": "${petName}"
+    }
+  ],
+  "status": "available"
+}`
+
+Composite: When I set request headers
+
+When I set request headers:
+|name        |value           |
+|Content-Type|application/json|
+
+Composite: When I generate data for user
+
+Given I initialize story variable `firstName` with value `#{generate(regexify '^[A-Z][a-zA-Z]{0,6}$')}`
+Given I initialize story variable `lastName` with value `#{generate(regexify '^[A-Z][a-zA-Z]{0,6}$')}`
+Given I initialize story variable `email` with value `#{generate(regexify '^[a-z]{5}@[a-z]{5}\.(com|ua|rr)$')}`
+Given I initialize story variable `password` with value `#{generate(regexify '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$')}`
+Given I initialize story variable `city` with value `Boston`
+Given I initialize story variable `Address 1` with value `870 Massachusetts Ave`
+Given I initialize story variable `zip` with value `02118`
+Given I initialize story variable `phone` with value `+1 617-442-4349`
